@@ -7,7 +7,7 @@ suppressPackageStartupMessages(library(Quandl))
 Quandl.api_key("Vgee32tr5JRhe8FzJBwy")
 
 #Download Exposures
-FxExp=read.xls("C:\\Users\\Tara\\Documents\\MMIF 2014\\CRM Intership\\Master Thesis_MMIF_CRM\\Thesis\\CRM -MMIF (Final Thesis)\\FX Assessment Project\\FX_Risk.xlsx",sheet="Data")
+FxExp=read.xls("C:\\Users\\....\\....\\Documents\\FX_Risk.xlsx",sheet="Data")
 FxExp[,"Exposure"]=as.numeric(FxExp[,"Exposure"])
 
 #Download risk factors
